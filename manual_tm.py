@@ -37,7 +37,7 @@ def manual_template_matching(source_path, template_path):
         best_loc,
         (best_loc[0] + tw, best_loc[1] + th),
         (0, 255, 0),
-        2
+        5
     )
 
     return source_color, best_score

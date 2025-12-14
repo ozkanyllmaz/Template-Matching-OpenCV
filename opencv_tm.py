@@ -14,6 +14,6 @@ def opencv_template_matching(source_path, template_path):
     bottom_right = (top_left[0] + w, top_left[1] + h)
 
     source_color = cv2.imread(source_path)
-    cv2.rectangle(source_color, top_left, bottom_right, (0, 0, 255), 2)
+    cv2.rectangle(source_color, top_left, bottom_right, (0, 0, 255), 5)
 
     return source_color, max_val

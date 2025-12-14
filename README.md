@@ -82,6 +82,18 @@ The program will display:
 
 ---
 
+## Template Matching Results
+
+Below are the visual results obtained from both implementations:
+
+### OpenCV Template Matching Result
+![OpenCV Template Matching Result](https://github.com/user-attachments/assets/1ed44e3f-f08a-4b94-bd44-14146ef475b4)
+
+### Manual NCC Implementation Result
+![Manual NCC Implementation Result](https://github.com/user-attachments/assets/7c35055c-b9de-4057-93ab-bb08e0941f4c)
+
+---
+
 ## Requirements
 
 See `requirements.txt` for the complete list of dependencies:
