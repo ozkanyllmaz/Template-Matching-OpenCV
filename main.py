@@ -2,8 +2,8 @@ import cv2
 from opencv_tm import opencv_template_matching
 from manual_tm import manual_template_matching
 
-source = "images/source.jpg"
-template = "images/template.jpg"
+source = "images/source1.jpg"
+template = "images/template1.jpg"
 
 opencv_img, opencv_score = opencv_template_matching(source, template)
 manual_img, manual_score = manual_template_matching(source, template)
