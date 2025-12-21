@@ -304,6 +304,28 @@ NCC, iki görüntü parçasının benzerliğini ölçen istatistiksel bir yönte
 - ⚠️ OpenCV, manuel yöntemden 100-1000x daha hızlıdır
 - 📚 Manuel yöntem, algoritmanın nasıl çalıştığını anlamak için idealdir
 
+### OpenCV Şablon Eşleştirme Sonucu
+![OpenCV Template Matching Result](https://github.com/user-attachments/assets/d0f1f020-1a39-4397-959e-cb89b0ed9f34)
+
+**Özellikler**:
+- Çalışma süresi: ~0.01-0.05 saniye
+- Benzerlik skoru: 0.95-1.0
+- Doğruluk: Çok yüksek
+
+### Manuel NCC Implementasyonu Sonucu
+![Manual NCC Implementation Result](https://github.com/user-attachments/assets/8ac76f76-a3df-4214-bf19-e8727f4aa137)
+
+**Özellikler**:
+- Çalışma süresi: ~10-50 saniye (görüntü boyutuna bağlı)
+- Benzerlik skoru: OpenCV ile neredeyse aynı
+- Doğruluk: Çok yüksek
+
+### Karşılaştırma
+- ✅ Her iki yöntem de aynı konumu bulur
+- ✅ Skor değerleri birbirine çok yakındır
+- ⚠️ OpenCV, manuel yöntemden 100-1000x daha hızlıdır
+- 📚 Manuel yöntem, algoritmanın nasıl çalıştığını anlamak için idealdir
+
 ---
 
 ## 📦 Gereksinimler
